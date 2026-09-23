@@ -27,17 +27,8 @@ body {
 }
 
 /* Header Component */
-.site-header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background: var(--primary-bg);
-}
-
 .navbar-brand {
-    font-size: 2.2rem;
+    font-size: 35px;
     font-weight: 800;
     letter-spacing: -0.5px;
     line-height: 1;
@@ -51,7 +42,7 @@ body {
 
 .navbar-nav .nav-link {
     color: var(--nav-link-color);
-    font-size: 0.85rem;
+    font-size: 14px;
     font-weight: 500;
     letter-spacing: 1.5px;
     padding: 0;
@@ -69,8 +60,8 @@ body {
     background-color: var(--text-white);
     color: #000000;
     border-radius: 50px;
-    padding: 0.75rem 1.8rem;
-    font-size: 0.78rem;
+    padding: 12px 30px;
+    font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
     border: none;
@@ -79,7 +70,7 @@ body {
 }
 
 .btn-pill .icon-arrow {
-    font-size: 0.85rem;
+    font-size: 14px;
     transform: rotate(0);
     transition: transform 0.3s ease;
 }
@@ -95,8 +86,8 @@ body {
 }
 
 .btn-pill-hero {
-    padding: 0.85rem 2.2rem;
-    font-size: 0.82rem;
+    padding: 14px 35px;
+    font-size: 13px;
 }
 
 /* Hero Banner */
@@ -137,11 +128,11 @@ body {
 }
 
 .hero-title {
-    font-size: 4.2rem;
+    font-size: 68px;
     font-weight: 400;
     line-height: 1.1;
     letter-spacing: -1px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
 }
 
 /* Featured Projects Section */
@@ -153,25 +144,25 @@ body {
 
 .section-subtitle {
     display: block;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 2px;
     color: #888888;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     text-transform: uppercase;
 }
 
 .section-title {
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 400;
     color: #111111;
     letter-spacing: -0.5px;
-    margin-bottom: 3.5rem;
+    margin-bottom: 56px;
 }
 
 .projects-grid {
     display: flex;
-    gap: 1.8rem;
+    gap: 30px;
 }
 
 .projects-col {
@@ -210,7 +201,7 @@ body {
     background: rgba(255, 255, 255, 0.9);
     color: #111111;
     padding: 6px 14px;
-    font-size: 0.68rem;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -230,24 +221,29 @@ body {
 
 .overlay-details {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .detail-val {
     display: block;
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size: 20px;
     font-weight: 600;
 }
 
 .detail-lbl {
     display: block;
-    color: #aaaaaa;
-    font-size: 0.7rem;
+    color: #d8d8d8;
+    font-size: 14px;
     font-weight: 400;
 }
-
+.vertical-line{
+    border:0.5px solid #ffffff75;
+}
 .overlay-arrow-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: 32px;
     height: 32px;
     background-color: #ffffff;
@@ -255,13 +251,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.75rem;
+    font-size: 12px;
     text-decoration: none;
     transition: transform 0.3s ease;
 }
 
 .overlay-arrow-btn:hover {
-    transform: translateX(1px);
+    transform: translateX(3px);
     color: #000000;
 }
 
@@ -269,19 +265,19 @@ body {
     background-color: #000000;
     color: #ffffff;
     border-radius: 50px;
-    padding: 0.85rem 2.2rem;
-    font-size: 0.78rem;
+    padding: 14px 35px;
+    font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: 0.6rem;
+    gap: 10px;
     transition: all 0.3s ease;
 }
 
 .btn-pill-dark .icon-arrow {
-    font-size: 0.85rem;
+    font-size: 14px;
     transition: transform 0.3s ease;
 }
 
@@ -301,7 +297,7 @@ body {
 }
 
 .about-wrapper {
-    gap: 5rem;
+    gap: 80px;
 }
 
 .about-image-col {
@@ -330,18 +326,18 @@ body {
 
 .about-subtitle {
     display: block;
-    font-size: 0.72rem;
+    font-size: 0.732px;
     font-weight: 600;
     letter-spacing: 2px;
     color: #888888;
-    margin-bottom: 0.75rem;
+    margin-bottom: 12px;
 }
 
 .about-title {
-    font-size: 3.2rem;
+    font-size: 52px;
     font-weight: 400;
     letter-spacing: -0.5px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     line-height: 1.1;
 }
 
@@ -353,31 +349,31 @@ body {
 
 .about-description {
     color: #cccccc;
-    font-size: 0.88rem;
+    font-size: 14px;
     line-height: 1.7;
     font-weight: 300;
-    margin-bottom: 2.5rem;
+    margin-bottom: 40px;
     max-width: 620px;
 }
 
 .about-stats-wrapper {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
 }
 
 .stat-item {
-    padding: 1.25rem 0;
+    padding: 20px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .stat-label {
-    font-size: 1.1rem;
+    font-size: 18px;
     font-weight: 400;
     color: #ffffff;
 }
 
 .stat-value {
-    font-size: 2.2rem;
+    font-size: 35px;
     font-weight: 300;
     color: #ffffff;
     letter-spacing: -0.5px;
@@ -450,7 +446,7 @@ body {
 }
 
 .sector-name {
-    font-size: 2rem;
+    font-size: 32px;
     font-weight: 400;
     letter-spacing: -0.5px;
 }
@@ -460,7 +456,7 @@ body {
     color: #ffffff;
     border-radius: 50px;
     padding: 6px 18px;
-    font-size: 0.68rem;
+    font-size: 11px;
     font-weight: 600;
     letter-spacing: 1px;
     text-decoration: none;
@@ -527,23 +523,23 @@ body {
 
 .hwd-subtitle {
     display: block;
-    font-size: 0.72rem;
+    font-size: 0.732px;
     font-weight: 600;
     letter-spacing: 2px;
     color: #888888;
-    margin-bottom: 0.75rem;
+    margin-bottom: 12px;
     text-transform: uppercase;
 }
 
 .hwd-title {
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: 400;
     letter-spacing: -1px;
     line-height: 1.1;
 }
 
 .hwd-wrapper {
-    margin-top: 3.5rem;
+    margin-top: 56px;
 }
 
 .hwd-accordion-col {
@@ -564,9 +560,9 @@ body {
 .custom-hwd-accordion .accordion-button {
     background: transparent !important;
     color: #888888 !important;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 400;
-    padding: 2.2rem 0;
+    padding: 35px 0;
     box-shadow: none !important;
     transition: color 0.3s ease;
 }
@@ -584,7 +580,7 @@ body {
 }
 
 .accordion-arrow {
-    font-size: 1.1rem;
+    font-size: 18px;
     color: #888888;
     transition: transform 0.3s ease, color 0.3s ease;
 }
@@ -600,10 +596,10 @@ body {
 
 .custom-hwd-accordion .accordion-body {
     color: #aaaaaa;
-    font-size: 0.92rem;
+    font-size: 0.932px;
     line-height: 1.7;
     font-weight: 300;
-    padding: 0 0 2rem 0;
+    padding: 0 0 32px 0;
     max-width: 90%;
 }
 
@@ -634,16 +630,16 @@ body {
 
 .news-subtitle {
     display: block;
-    font-size: 0.72rem;
+    font-size: 0.732px;
     font-weight: 600;
     letter-spacing: 2px;
     color: #888888;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
     text-transform: uppercase;
 }
 
 .news-title {
-    font-size: 3.5rem;
+    font-size: 56px;
     font-weight: 400;
     color: #111111;
     letter-spacing: -1px;
@@ -681,21 +677,21 @@ body {
 
 .news-date {
     display: block;
-    font-size: 0.7rem;
+    font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
     color: #888888;
-    margin-bottom: 0.8rem;
+    margin-bottom: 13px;
     text-transform: uppercase;
 }
 
 .news-card-title {
-    font-size: 1.15rem;
+    font-size: 18px;
     font-weight: 500;
     color: #111111;
     line-height: 1.35;
-    margin-bottom: 0.75rem;
-    min-height: 3.8rem;
+    margin-bottom: 12px;
+    min-height: 60px;
     transition: color 0.3s ease;
 }
 
@@ -704,18 +700,18 @@ body {
 }
 
 .news-excerpt {
-    font-size: 0.82rem;
+    font-size: 13px;
     color: #777777;
     line-height: 1.6;
     font-weight: 300;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
 }
 
 .news-read-more {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    font-size: 0.68rem;
+    gap: 8px;
+    font-size: 11px;
     font-weight: 700;
     letter-spacing: 1px;
     color: #111111;
@@ -724,13 +720,13 @@ body {
 }
 
 .news-arrow {
-    font-size: 0.75rem;
+    font-size: 12px;
     transform: rotate(0deg);
     transition: transform 0.3s ease;
 }
 
 .news-card:hover .news-read-more {
-    gap: 0.75rem;
+    gap: 12px;
 }
 
 .news-card:hover .news-arrow {
@@ -751,7 +747,7 @@ body {
 }
 
 .partners-title {
-    font-size: 3.2rem;
+    font-size: 52px;
     font-weight: 400;
     color: #111111;
     letter-spacing: -1px;
@@ -777,7 +773,7 @@ body {
 .partner-card {
     width: 320px;
     height: 300px;
-    padding: 2.5rem;
+    padding: 40px;
     flex-shrink: 0;
     transition: background-color 0.3s ease;
 }
@@ -823,7 +819,7 @@ body {
 }
 
 .footer-grid {
-    gap: 4rem;
+    gap: 64px;
     padding-bottom: 80px;
 }
 
@@ -832,20 +828,20 @@ body {
 }
 
 .footer-heading {
-    font-size: 1.8rem;
+    font-size: 30px;
     font-weight: 400;
     color: #ffffff;
     letter-spacing: -0.5px;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .footer-links li {
-    margin-bottom: 0.85rem;
+    margin-bottom: 14px;
 }
 
 .footer-links a {
     color: #cccccc;
-    font-size: 0.95rem;
+    font-size: 16px;
     font-weight: 300;
     text-decoration: none;
     transition: color 0.3s ease, padding-left 0.3s ease;
@@ -859,10 +855,10 @@ body {
 /* Contact Details */
 .footer-contact-info .contact-item {
     color: #cccccc;
-    font-size: 0.95rem;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.6;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
 }
 
 .footer-contact-info .contact-label {
@@ -883,7 +879,7 @@ body {
 .social-link {
     color: #ffffff;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 16px;
     font-weight: 400;
     transition: transform 0.3s ease;
 }
@@ -902,7 +898,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 18px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -912,12 +908,12 @@ body {
 
 .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
-    padding-top: 2rem;
+    padding-top: 32px;
 }
 
 .copyright-text {
     color: #ffffff;
-    font-size: 0.82rem;
+    font-size: 13px;
     font-weight: 300;
 }
 
@@ -932,7 +928,7 @@ body {
 }
 
 .divider-line {
-    margin: 0 0.4rem;
+    margin: 0 7px;
     color: #ffffff;
 }
 
